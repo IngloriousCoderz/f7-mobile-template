@@ -1,13 +1,11 @@
-const completeMessage = `
-{{#inPlace}}To get started:
+const completeMessage = `{{#inPlace}}To get started:
 
 npm install # Or yarn
 npm run dev{{else}}To get started:
 
 cd {{destDirName}}
 npm install # Or yarn
-npm run dev{{/inPlace}}
-`
+npm run dev{{/inPlace}}`
 
 module.exports = {
   helpers: {
