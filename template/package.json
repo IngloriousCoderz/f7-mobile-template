@@ -2,7 +2,13 @@
   "name": "{{ name }}",
   "version": "1.0.0",
   "description": "{{ description }}",
-  "author": "{{ author }}",
+  "license": "MIT",
+  "homepage": "://tazebao.cnosfap.net",
+  "author": "Archimedix <io@archimedix.net> (http://archimedix.net)",
+  "contributors": [
+    "Nena <elena.carniel@cnosfap.net>",
+    "IceOnFire <antony.mistretta@gmail.com> (https://www.ingloriouscoderz.it)"
+  ],
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -13,7 +19,10 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^1.0.0-rc11"
+    "axios": "^0.17.0",
+    "framework7-vue": "^2.0.0-beta.4",
+    "nuxt": "^1.0.0-rc11",
+    "vue-moment": "^2.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
